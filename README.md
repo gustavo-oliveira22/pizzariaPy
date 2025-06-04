@@ -31,7 +31,7 @@ cd pizzariaPy
 
 ---
 
-### **Passo 2: Configuração do Backend (MySQL)**
+### **Passo 2: Configuração do Banco de Dados (MySQL)**
 
 1. **Inicie o MySQL** em seu computador.
 2. **Crie o banco de dados** `pizzaria`:
