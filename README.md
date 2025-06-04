@@ -100,7 +100,17 @@ db.connect((err) => {
 });
 ```
 
----
+# Criar ambiente virtual
+python -m venv venv
+
+# Ativar ambiente:
+# Linux/Mac:
+source venv/bin/activate
+# Windows:
+.\venv\Scripts\activate
+
+# Instalar dependências
+pip install -r requirements.txt
 
 ### **Passo 3: Configuração do Frontend (React)**
 
@@ -118,6 +128,11 @@ npm install
 Execute o comando abaixo para iniciar o servidor React:
 
 ```bash
+# Em um terminal (Backend):
+python src/main.py
+
+# Em outro terminal (Frontend):
+
 cd pizzaria-py
 cd src
 npm start
@@ -125,8 +140,27 @@ npm start
 
 Isso abrirá o aplicativo React no navegador, geralmente em `http://localhost:3000`.
 
+Acessando o Sistema
+Backend: `http://localhost:5000`.
+
 ---
 
+### Dicas Importantes
+Sempre ative o ambiente virtual antes de trabalhar no backend
+
+Mantenha as dependências atualizadas com:
+```
+pip freeze > requirements.txt  # Backend
+npm update  # Frontend
+```
 ### **Passo 4: Testar a Aplicação**
 
 Após configurar o backend e o frontend, a aplicação estará disponível. Você pode acessar a página no navegador e fazer pedidos de pizza, selecionando as opções de pizza, bebida, borda, quantidade e cidade.
+
+
+### Observações importantes:
+1. Verifique se os caminhos dos arquivos (`src/main.py`, `frontend/`) correspondem à estrutura real do seu projeto
+2. Caso seu frontend use yarn em vez de npm, substitua os comandos adequadamente
+3. Se estiver usando um framework frontend específico (React, Vue etc.), você pode adicionar badges ou informações específicas
+
+Você pode copiar todo este conteúdo diretamente para seu arquivo README.md no GitHub.
