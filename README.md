@@ -17,6 +17,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 - **MySQL** - [Baixe o MySQL](https://dev.mysql.com/downloads/installer/)
 - **npm** - O npm é instalado automaticamente com o Node.js
 - **Git** - [Baixe o Git](https://git-scm.com/)
+- **Python** - [Baixe o Python 3.13] (https://www.python.org/)
 
 ---
 
