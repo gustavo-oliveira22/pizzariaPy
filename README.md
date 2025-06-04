@@ -104,12 +104,12 @@ db.connect((err) => {
 ```python -m venv venv```
 
 # Ativar ambiente:
-# Linux/Mac:
+Linux/Mac:
 ```source venv/bin/activate```
-# Windows:
+Windows:
 ```.\venv\Scripts\activate```
 
-# Instalar dependências
+Instalar dependências
 ```pip install -r requirements.txt```
 
 ### **Passo 3: Configuração do Frontend (React)**
