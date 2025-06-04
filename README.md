@@ -25,8 +25,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 Primeiro, clone o repositório do GitHub para sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/pizzaria-py.git
-cd pizzaria-py
+git clone https://github.com/gustavo-oliveira22/pizzariaPy.git
+cd pizzariaPy
 ```
 
 ---
