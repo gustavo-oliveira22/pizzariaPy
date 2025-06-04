@@ -130,7 +130,8 @@ Execute o comando abaixo para iniciar o servidor React:
 
 ```bash
 # Em um terminal (Backend):
-python src/main.py
+cd backend
+node server.js
 
 # Em outro terminal (Frontend):
 
